@@ -1,6 +1,6 @@
 var xhr = new XMLHttpRequest(),
     method = "GET",
-    url = "http://yitv.herokuapp.com";
+    url = "https://yitv.herokuapp.com";
 
 xhr.open(method, url, true);
 xhr.onreadystatechange = function () {
